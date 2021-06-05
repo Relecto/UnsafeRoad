@@ -6,11 +6,8 @@ using UnityEditor;
 
 public class Driver : MonoBehaviour
 {
-
-    public float reactionTime = 0.5f;
-
     [Range(0, 10000)]
-    public float acceleration = 0f;
+    public float acceleration = 1708f;
 
     Rigidbody rigidbody;
 
